@@ -1,0 +1,125 @@
+
+body {
+    background-image: url('anime.jpg');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+.nazi {
+    margin-top: 50px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 250px;
+    
+
+}
+
+.nazi h2 {
+    margin: 0px;
+}
+
+.nazi p {
+    font-style: italic;
+    color: black;
+    margin: 5px 0px;
+
+}
+
+.nazi ol {
+    margin: 20px 0;
+}
+
+.nazi ol li {
+    margin: 5px 0;
+    padding: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+
+
+}
+
+.nazi ol li:nth-child(even) {
+    background: #02e4d8;
+}
+
+.nazi .completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.nazi form {
+    display: inline-block;
+}
+
+.nazi input {
+    padding: 3px 5px;
+    
+}
+
+.nazi .tombol:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.nazi .tombol {
+    margin: 10px 2px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 5px 20px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+
+#control-wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nazi #clear-button {
+    background-color: #49B749;
+}
+
+.nazi #empty-button {
+    background-color: #9B1C20;
+}
+
+.nazi #save-button {
+    background-color: #49B749;
+}
+
+@media only screen and (min-width: 1400px) {
+    .nazi {
+        width: 50%;
+    }
+
+    .nazi input {
+        width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .nazi {
+        width: 75%;
+    }
+
+    .nazi input {
+        width: 400px;
+    }
+}
